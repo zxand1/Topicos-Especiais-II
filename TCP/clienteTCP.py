@@ -15,7 +15,7 @@ try:
     # connect() lança exceção se o servidor não estiver rodando/aceitando conexões
     client_socket.connect((HOST, PORT))
     # Mensagem a ser enviada. Em Python sockets enviamos bytes, então codificamos com UTF-8.
-    mensagem = "Olá, servidor, meu nome é Alexandre."
+    mensagem = "Olá, servidor, meu nome é Lucas dono do Vectra!"
     client_socket.sendall(mensagem.encode('utf-8'))  # sendall garante envio completo dos bytes
 
     # Aguarda resposta do servidor. O argumento 1024 é o tamanho máximo do buffer (bytes)

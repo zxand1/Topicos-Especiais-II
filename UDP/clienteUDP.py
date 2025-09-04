@@ -14,7 +14,7 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 client_socket.settimeout(TIMEOUT)
 
 try:
-    mensagem = "Olá, servidor, meu nome é Alexandre!"
+    mensagem = "Olá, servidor, meu nome é Lucas dono do Vectra!"
     # sendto envia os bytes diretamente para o endereço (host,port)
     client_socket.sendto(mensagem.encode('utf-8'), (HOST, PORT))
     # Aguarda resposta do servidor (max 1024 bytes)
